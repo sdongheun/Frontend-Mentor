@@ -1,0 +1,107 @@
+body {
+  background-color: hsl(241, 100%, 89%);
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+}
+main {
+  margin: 30% 20%;
+  border-radius: 30px;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: row;
+}
+.first {
+  border-radius: 30px;
+  padding: 30px;
+  flex: 1;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  color: hsl(221, 100%, 96%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second {
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  padding: 30px;
+  flex: 1;
+}
+p {
+  font-size: 20px;
+}
+.radius {
+  width: 60%;
+  aspect-ratio: 1/1;
+  border-radius: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+h1 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+h2 {
+  font-size: 30px;
+}
+.detail {
+  text-align: center;
+  padding: 0 30px;
+  line-height: 1.5;
+}
+.box {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+img {
+  margin-right: 20px;
+}
+.Reaction {
+  background-color: hsl(0, 100%, 95%);
+}
+.Memory {
+  background-color: hsl(39, 100%, 95%);
+}
+.Verbal {
+  background-color: hsl(166, 100%, 95%);
+}
+.Visual {
+  background-color: hsl(234, 85%, 95%);
+}
+.Reaction .color {
+  color: hsl(0, 100%, 67%);
+}
+.Memory .color {
+  color: hsl(39, 100%, 56%);
+}
+.Verbal .color {
+  color: hsl(166, 100%, 37%);
+}
+.Visual .color {
+  color: hsl(234, 85%, 45%);
+}
+.space-between {
+  display: flex;
+  align-items: center;
+}
+.continue {
+  margin-top: 40px;
+  border-radius: 30px;
+  background-color: hsl(224, 30%, 27%);
+  padding: 20px;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+}
+.continue:hover {
+  cursor: pointer;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}

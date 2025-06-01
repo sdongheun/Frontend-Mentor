@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: hsl(47, 88%, 63%);
+  font-weight: 500;
+}
+main{
+  border: 1px solid black;
+  margin: 20% 30%;
+  padding: 30px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  box-shadow: 10px 10px;
+}
+div{
+  margin-bottom: 30px;
+}
+.mainImg{
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+.learning{
+  display: inline-block;
+  background-color: hsl(47, 88%, 63%);
+  padding: 10px 20px;
+  margin: 0;
+  font-weight:900;
+  border-radius: 5px;
+}
+.bold{
+  font-weight: 900;
+}
+.font{
+  color: hsl(0, 0%, 42%);
+  font-size: 20px;
+}
+.subImg{
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+div.foot{
+  margin: 0;
+  display: flex;
+  align-items: center;
+}

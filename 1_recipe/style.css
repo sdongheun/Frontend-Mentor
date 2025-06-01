@@ -1,0 +1,65 @@
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+main {
+  background-color: hsl(0, 0%, 100%);
+  margin: 10% 20%;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+}
+section {
+  /* margin: 30px; */
+  padding: 30px;
+}
+.img {
+  width: 100%;
+  border-radius: 15px;
+}
+section > div {
+  margin-bottom: 30px;
+  /* border: 1px solid black; */
+}
+.box {
+  background-color: hsl(330, 100%, 98%);
+  padding: 30px 30px;
+  border-radius: 10px;
+}
+.gap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+h2 {
+  color: hsl(14, 45%, 36%);
+}
+h3 {
+  color: hsl(332, 51%, 32%);
+}
+h2,
+h3 {
+  margin: 0;
+}
+.gap ul,
+.gap ol {
+  /* padding: 0; */
+  padding-left: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+li {
+  padding-left: 20px;
+  margin-bottom: 12px;
+}
+
+ol li::marker {
+  color: hsl(14, 45%, 36%);
+}
+hr {
+  margin-bottom: 30px;
+}
+article div {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
