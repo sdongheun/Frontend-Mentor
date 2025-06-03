@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+main {
+  width: 60%;
+  height: 60%;
+  min-height: 500px;
+  min-width: 300px;
+  display: flex;
+}
+section {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  flex: 1;
+}
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+  flex: 1;
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  flex: 1;
+}
+img {
+  align-self: flex-start;
+}
+h1 {
+  color: white;
+}
+div.text {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 14px;
+  line-height: 20px;
+}
+.learn {
+  margin-top: 7rem;
+  /* justify-self: flex-start; */
+  width: fit-content;
+  border: 2px solid white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: white;
+  font-weight: 500;
+}
+.orange {
+  color: hsl(31, 77%, 52%);
+}
+.cyan {
+  color: hsl(184, 100%, 22%);
+}
+.dark-cyan {
+  color: hsl(179, 100%, 13%);
+}
+.orange:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+  cursor: pointer;
+}
+.cyan:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+  cursor: pointer;
+}
+.dark-cyan:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+  cursor: pointer;
+}
