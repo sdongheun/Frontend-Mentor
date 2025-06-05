@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/bg-pattern-top-desktop.svg),
+    url(./images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat, no-repeat;
+}
+main {
+  width: 80%;
+  height: 80%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+.section1 {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  flex: 1;
+}
+.rate {
+  flex: 1;
+}
+h1 {
+  font-size: clamp(32px, 5vw, 50px);
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+}
+p.text {
+  margin-top: 20px;
+  color: hsl(303, 10%, 53%);
+  line-height: 20px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.rate-box {
+  margin-top: 20px;
+  padding: 20px;
+  width: 80%;
+  display: flex;
+  gap: 20px;
+  background-color: hsl(333, 30%, 90%);
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+}
+.rate-box:nth-child(1) {
+  margin-left: 0;
+}
+.rate-box:nth-child(2) {
+  margin-left: 10%;
+}
+.rate-box:nth-child(3) {
+  margin-left: 20%;
+}
+.star img {
+  margin: 0 3px;
+}
+.section2 {
+  flex: 1;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.profile {
+  background-color: hsl(300, 43%, 22%);
+  padding: 30px;
+  border-radius: 10px;
+  width: 32%;
+  height: fit-content;
+  color: white;
+}
+.profile:nth-child(1) {
+  margin-top: 0;
+}
+.profile:nth-child(2) {
+  margin-top: 20px;
+}
+.profile:nth-child(3) {
+  margin-top: 40px;
+}
+@media (max-width: 900px) {
+  .section1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .rate-box {
+    flex-direction: column;
+    width: 90vw;
+  }
+  .rate-box:nth-child(n) {
+    margin-left: 0;
+  }
+  .section2 {
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+  }
+  .profile {
+    width: 90vw;
+  }
+  .profile:nth-child(n) {
+    margin-top: 20px;
+  }
+}
+.profile-name {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.profile img {
+  width: 30px;
+  border-radius: 50%;
+}
+.font-color {
+  color: hsl(333, 80%, 67%);
+}
+p {
+  margin-top: 20px;
+  font-size: 17px;
+}
+.top-margin {
+  margin-top: 35px;
+}
+.top-margin2 {
+  margin-top: 70px;
+}
